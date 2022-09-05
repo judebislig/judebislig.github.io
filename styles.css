@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: White;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+section {
+  width: 100%;
+  min-height: 105vh;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+i {
+  font-size: 1.75rem;
+  margin: 0 10px 10px 10px;
+}
+
+img {
+  width: 400px;
+  margin-bottom: 50px;
+  border: 12px solid Black;
+
+}
+
+/* Navbar */
+
+nav {
+  height: 64px;
+  width: 100%;
+  padding: 20px;
+  background-color: Black;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: White;
+}
+
+nav ul li {
+  margin: 30px;
+}
+
+nav ul li a:hover {
+  color: #b3b3b3;
+}
+
+#title {
+  font-size: 1.8rem;
+  font-family: 'Red Hat Display', sans-serif;
+  margin-left: 20px;
+  text-transform: uppercase;
+  color: White;
+}
+
+/* Home Section */
+
+.home {
+  color: White;
+}
+
+.background-image {
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.home div {
+  transform: translateY(64px);
+  margin: 5%;
+}
+
+/* About Section */
+
+.about div {
+  margin: 8%;
+}
+
+/* Activities Section */
+
+.activities {
+  display: block;
+  background-color: #bed6ba;
+  color: White;
+  padding: 50px 0 100px 0;
+  text-align: center;
+
+}
+
+.activities-container {
+  display: flex;
+  margin: 0 8%;
+}
+
+.activities-container h3 {
+  padding: 0 8%;
+}
+
+.activities-container div img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 12px solid #2c391a;
+  margin-bottom: 20px;
+  background-color: White;
+}
+
+/* Contact Section */
+
+.contact div {
+  margin: 5%;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 25px;
+  height: 125px;
+  width: 100%;
+  background-color: Black;
+  color: White;
+  text-align: center;
+}
+
+footer a:hover {
+  color: #b3b3b3;
+}
