@@ -3,29 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
   scroll-behavior: smooth;
-  font-weight: normal;
-}
 
-a {
-  text-decoration: none;
-  color: White;
-}
-
-h1 {
-  font-size: 5rem;
-  font-family: 'Red Hat Display', sans-serif;
-  line-height: 2;
-}
-
-h2 {
-  font-size: 2.2rem;
-  font-weight: 100;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: 100;
 }
 
 section {
@@ -33,6 +13,38 @@ section {
   min-height: 105vh;
   display: flex;
   justify-content: center;
+}
+
+img {
+  width: 400px;
+  margin-bottom: 50px;
+  border: 12px solid Black;
+
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: White;
+}
+
+a:hover {
+  color: #b3b3b3;
 }
 
 form {
@@ -45,12 +57,6 @@ i {
   margin: 0 10px 10px 10px;
 }
 
-img {
-  width: 400px;
-  margin-bottom: 50px;
-  border: 12px solid Black;
-
-}
 
 /* Navbar */
 
@@ -69,23 +75,16 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  color: White;
 }
 
 nav ul li {
   margin: 30px;
 }
 
-nav ul li a:hover {
-  color: #b3b3b3;
-}
-
 #title {
   font-size: 1.8rem;
   font-family: 'Red Hat Display', sans-serif;
-  margin-left: 20px;
   text-transform: uppercase;
-  color: White;
 }
 
 /* Home Section */
@@ -97,7 +96,7 @@ nav ul li a:hover {
 .background-image {
   border: 0px;
   width: 100%;
-  height: 100%;
+  height: 105%;
   object-fit: cover;
   position: absolute;
   z-index: -1;
@@ -160,6 +159,3 @@ footer {
   text-align: center;
 }
 
-footer a:hover {
-  color: #b3b3b3;
-}
