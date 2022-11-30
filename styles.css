@@ -90,14 +90,8 @@ nav ul li {
 
 .home {
   color: White;
-}
-
-.background-image {
-  border: 0px;
-  width: 100%;
-  object-fit: cover;
-  position: absolute;
-  z-index: -1;
+  background-image: url(images/background.png);
+  background-size: 100%;
 }
 
 .home div {
